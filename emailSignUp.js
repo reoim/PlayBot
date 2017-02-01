@@ -1,6 +1,6 @@
 'use strict';
 const Mongo = require('mongodb').MongoClient;
-const uri = "mongodb://reo:mFive_five55@ds019846.mlab.com:19846/playbot";
+const uri = "mongodb://<dbuser>:<dbpassword>@ds019846.mlab.com:19846/playbot";
 
 module.exports = function(ctx, cb) {
     let mailID = ctx.data.replyData;
